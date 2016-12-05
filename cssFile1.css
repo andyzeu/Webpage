@@ -1,0 +1,20 @@
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+#myNavbar {
+  background-color: Red;
+}
+
+#navbar-collapse {
+  background-color: #DE2311;
+  color: #DE2311;
+}
