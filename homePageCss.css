@@ -7,3 +7,8 @@
   height: 1000px;
   text-shadow: 0.25px 0.25px 0.25px #ff0000;
 }
+
+.welcomingText {
+  color: Black;
+  font-family: Coursive, Verdana, sans-serif;
+}
