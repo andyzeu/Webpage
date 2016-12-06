@@ -1,24 +1,24 @@
-#homePageJumbo{
-  display: flex;
-  align-items: center;
-  background-image: url('https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/01/shutterstock_144653342.jpg');
-  background-size: cover;
-  color: #0000ff;
-  height: 1000px;
-  text-shadow: 0.25px 0.25px 0.25px #ff0000;
-}
 
 .welcomingText {
   color: Black;
   font-family: Coursive, Verdana, sans-serif;
+  vertical-align: top;
 }
 
 section .row img {
   margin: 0 0 2rem;
   height: 13rem;
-  width: 80%;
+  width: 70%;
+}
+
+.pageText {
+  margin-top: 25rem;
+}
+
+footer {
+  margin-top: 2rem;
 }
 
 #homePageImages {
-  height = 25rem;
+  height = 40rem;
 }

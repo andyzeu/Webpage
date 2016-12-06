@@ -18,3 +18,13 @@
   background-color: #DE2311;
   color: #DE2311;
 }
+
+#homePageJumbo{
+  display: flex;
+  align-items: topText;
+  background-image: url('https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/01/shutterstock_144653342.jpg');
+  background-size: cover;
+  color: #0000ff;
+  height: 1000px;
+  text-shadow: 0.25px 0.25px 0.25px #ff0000;
+}

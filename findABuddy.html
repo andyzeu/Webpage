@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Study buddy</title>
 <link rel="stylesheet" type="text/css" href="cssFile1.css";>
+<link rel="stylesheet" type="text/css" href="findBuddyCss.css";>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -33,13 +34,144 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="nav navbar-nav">
                   <li><a href="homePage.html">Home</a></li>
-                  <li><a href="calendar.html">Calendar</a></li>
+                  <li><a href="whyCollaborate.html">Why should I collaborate?</a></li>
                   <li class="active"><a href="findABuddy.html">Find a buddy!</a></li>
                   <li><a href="requestStudyBuddy.html">Create a request</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <p> I am the <strong>find a buddy</strong> page</p>
+    <section class="jumbotron" id="homePageJumbo">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-3">
+        </div>
+        <div class="col-xs-6 findBuddyEntry" id="entry1">
+          <p class="permanentText"><strong>Major</strong>:Bachelor Software Science</p>
+          <p class="permanentText"><strong>Course</strong>: Discrete Structures</p>
+          <p class="permanentText"><strong>Time slot</strong>: Quartile 1</p>
+          <p class="toggledText">
+            <div class ="showButton" href="#">Show more</div>
+            <div class ="pendingButton" href="#">I want to be your buddy</div>
+            <ul class="hiddenText">
+              <li><strong>Availability</strong></li>
+              <li>Monday : 9AM-12AM</li>
+              <li>Tuesday : 12AM-3PM</li>
+              <li>Wednesday : 8AM-12AM</li>
+              <li>Thursday : 8PM-12PM</li>
+              <li>Friday : 12AM-7PM</li>
+              <li>Saturday : all day</li>
+              <li>Sunday : 2PM-8PM</li>
+              <li><strong>Study level</strong>: Hobby</li>
+              <li><strong>Name</strong>: Michael Flennigan</li>
+              <li><strong>Year</strong>: 3rd Master's</li>
+              <li><strong>Major</strong>: Electrical Engineering</li>
+              <li><strong>Contact</strong>: +31 0754345879</li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-xs-3">
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-xs-3">
+        </div>
+        <div class="col-xs-6 findBuddyEntry" id="entry2">
+          <p class="permanentText"><strong>Major</strong>:Bachelor Web Technology</p>
+          <p class="permanentText"><strong>Course</strong>: Web Technology basics</p>
+          <p class="permanentText"><strong>Time slot</strong>: Quartile 3</p>
+          <p class="toggledText">
+            <div class ="showButton" href="#">Show more</div>
+            <div class ="pendingButton" href="#">I want to be your buddy</div>
+            <ul class="hiddenText">
+              <li><strong>Availability</strong></li>
+              <li>Monday : 12AM-5PM</li>
+              <li>Tuesday : 10AM-3PM</li>
+              <li>Wednesday : 12AM-5PM</li>
+              <li>Thursday : 10AM-3PM</li>
+              <li>Friday : 12AM-5PM</li>
+              <li>Saturday : anytime</li>
+              <li>Sunday : anytime</li>
+              <li><strong>Study level</strong>: Student</li>
+              <li><strong>Name</strong>: Colleen James</li>
+              <li><strong>Year</strong>: 1st Master's</li>
+              <li><strong>Major</strong>: Industrial Engineering</li>
+              <li><strong>Contact</strong>: +31 0764745849</li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-xs-3">
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-xs-3">
+        </div>
+        <div class="col-xs-6 findBuddyEntry" id="entry3">
+          <p class="permanentText"><strong>Major</strong>:Master's Industrial Design</p>
+          <p class="permanentText"><strong>Course</strong>: Applied physics - Advanced</p>
+          <p class="permanentText"><strong>Time slot</strong>: Quartile 2</p>
+          <p class="toggledText">
+            <div class ="showButton" href="#">Show more</div>
+            <div class ="pendingButton" href="#">I want to be your buddy</div>
+            <ul class="hiddenText">
+              <li><strong>Availability</strong></li>
+              <li>Monday : 10AM-3PM</li>
+              <li>Tuesday : 12AM-5PM</li>
+              <li>Wednesday : 10AM-3PM</li>
+              <li>Thursday : 2P-7PM</li>
+              <li>Friday : 12AM-2PM</li>
+              <li>Saturday : 9AM-5PM</li>
+              <li>Sunday : 3PM-10PM</li>
+              <li><strong>Study level</strong>: Student</li>
+              <li><strong>Name</strong>: Depreeche DuWhat</li>
+              <li><strong>Year</strong>: 2nd Master's</li>
+              <li><strong>Major</strong>: Web Technology</li>
+              <li><strong>Contact</strong>: +31 0724345579</li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-xs-3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+        </div>
+        <div class="col-xs-6 findBuddyEntry" id="entry4">
+          <p class="permanentText"><strong>Major</strong>:Bachelor Mechanical Engineering</p>
+          <p class="permanentText"><strong>Course</strong>: Fluid mechanics</p>
+          <p class="permanentText"><strong>Time slot</strong>: Quartile 1</p>
+          <p class="toggledText">
+            <div class ="showButton" href="#">Show more</div>
+            <div class ="pendingButton" href="#">I want to be your buddy</div>
+            <ul class="hiddenText">
+              <li><strong>Availability</strong></li>
+              <li>Monday : 10AM-12AM</li>
+              <li>Tuesday : 8AM-12AM</li>
+              <li>Wednesday : 12AM-5PM</li>
+              <li>Thursday : 12AM-5PM</li>
+              <li>Friday : 3PM-7PM</li>
+              <li>Saturday : anytime</li>
+              <li>Sunday : 5PM-8PM</li>
+              <li><strong>Study level</strong>: Student</li>
+              <li><strong>Name</strong>: Gregor McInstrick</li>
+              <li><strong>Year</strong>: 2nd Bachelor's</li>
+              <li><strong>Major</strong>: Electrical Engineering</li>
+              <li><strong>Contact</strong>: +31 0754432479</li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-xs-3">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="container">
+    <div class="row text-center">
+      <p class="col-xs-4"></p>
+      <p class="col-xs-4">&copy; Study Buddy 2016</p>
+      <p class="col-xs-4"></p>
+    </div>
+  </footer>
+  <script src="findBuddyJS.js"></script>
   </body>
 <html>
