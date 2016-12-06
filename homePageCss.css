@@ -18,3 +18,7 @@ section .row img {
   height: 13rem;
   width: 80%;
 }
+
+#homePageImages {
+  height = 25rem;
+}
