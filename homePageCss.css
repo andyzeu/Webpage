@@ -1,0 +1,9 @@
+#homePageJumbo{
+  display: flex;
+  align-items: center;
+  background-image: url('http://www.innovationmanagement.se/wp-content/uploads/2014/08/Joint-Effort-collaboration-concept-.png');
+  background-size: cover;
+  color: #0000ff;
+  height: 1000px;
+  text-shadow: 0.25px 0.25px 0.25px #ff0000;
+}
