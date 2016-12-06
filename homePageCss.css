@@ -14,7 +14,7 @@
 }
 
 section .row img {
-  margin: 0 0 30px;
-  height: 200px;
+  margin: 0 0 2rem;
+  height: 13rem;
   width: 50%;
 }
