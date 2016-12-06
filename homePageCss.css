@@ -12,3 +12,8 @@
   color: Black;
   font-family: Coursive, Verdana, sans-serif;
 }
+
+section .row img {
+  margin: 0 0 2rem;
+  width: 100%
+}
